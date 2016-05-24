@@ -1,3 +1,5 @@
+/*eslint-env browser */
+/*globals game_loop pause:true*/
 $(document).ready(function(){
 	
 document.body.onmousedown = function() { return false; } //so page is unselectable
@@ -354,7 +356,7 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 					}
 				}
 		    }
-		}
+		};
 		
 		//Checks if there are no walls around
 		this.noWallAround = function() {
