@@ -50,6 +50,7 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	//Creates tool for creating map - only if not randomly generating
 	if (!map.randomCreate) {
 		createTool = new CreateTool();
+		//Noah
 	}
 	
 	
